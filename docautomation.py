@@ -7,7 +7,7 @@ import time
 
 # Set up Google credentials
 creds = service_account.Credentials.from_service_account_info(
-    ["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"],
+    st.secrets["google_credentials"],
     scopes=["https://www.googleapis.com/auth/drive",
             "https://www.googleapis.com/auth/documents"]
 )
