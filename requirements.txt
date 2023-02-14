@@ -1,4 +1,4 @@
 streamlit==0.72.0
-google.oauth2==1.0.1
+google-auth2==1.0.1
 google-api-python-clien==2.77.0
 time==0.3.0
